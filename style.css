@@ -1,0 +1,60 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 75vh;
+    flex-direction: column;
+}
+
+.buttons-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin: 10px;
+    width: 300px;
+    height: 300px;
+}
+
+.btn {
+    padding: 20px;
+    font-size: 20px;
+}
+
+.topButtons {
+    grid-column-start: span 4;
+    grid-column-end: span 4;
+    justify-self: auto;
+    font-size: 30px;
+    width: 300px;
+}
+
+.clearButton {
+    font-size: inherit;
+    padding: auto;
+    padding: 10px;
+    grid-column-start: inherit;
+    grid-column-end: inherit;
+    width: 146px;
+}
+
+.backspace {
+    font-size: inherit;
+    padding: 10px;
+    grid-column-start: inherit;
+    width: 146px;
+    
+}
+
+.displayC {
+    border: 1px;
+    border-color: black;
+    font-size: 30px;
+}
+
+.backspace {
+    background-color: rgb(10, 200, 80);
+}
+
+.clearButton {
+    background-color: rgb(180, 10, 60);
+}
